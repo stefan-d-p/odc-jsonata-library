@@ -20,16 +20,18 @@ namespace JSONata
 
         [OSAction(
             Description = "This Action takes a JSON document and a JSONata transformation as input.",
-            ReturnName = "result",
+            ReturnName = "Result",
             ReturnDescription = "Transformed JSON Document",
             ReturnType = OSDataType.Text,
             IconResourceName = "JSONata.Library.Resources.jsonata.png")]
         string Transform(
             [OSParameter(
+                OriginalName = "Json",
                 DataType = OSDataType.Text,
                 Description = "JSON source document")]
             string json,
             [OSParameter(
+                OriginalName = "Transform",
                 DataType = OSDataType.Text,
                 Description = "JSONata transformation")]
             string transformation);
