@@ -5,7 +5,7 @@ namespace JSONata
     [OSInterface(
         Description = "Perform complex JSON transformations with JSONata",
         Name = "JSONata",
-        IconResourceName = "JSONata.Library.Resources.jsonata.png")]
+        IconResourceName = "JSONata.Resources.jsonata.png")]
     public interface IJSONata
     {
         /// <summary>
@@ -20,18 +20,16 @@ namespace JSONata
 
         [OSAction(
             Description = "This Action takes a JSON document and a JSONata transformation as input.",
-            ReturnName = "Result",
+            ReturnName = "result",
             ReturnDescription = "Transformed JSON Document",
             ReturnType = OSDataType.Text,
-            IconResourceName = "JSONata.Library.Resources.jsonata.png")]
+            IconResourceName = "JSONata.Resources.jsonata.png")]
         string Transform(
             [OSParameter(
-                OriginalName = "Json",
                 DataType = OSDataType.Text,
                 Description = "JSON source document")]
             string json,
             [OSParameter(
-                OriginalName = "Transform",
                 DataType = OSDataType.Text,
                 Description = "JSONata transformation")]
             string transformation);
