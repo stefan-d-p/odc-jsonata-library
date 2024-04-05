@@ -1,7 +1,7 @@
 ﻿using Jsonata.Net.Native;
 using OutSystems.ExternalLibraries.SDK;
 
-namespace JSONata
+namespace Without.Systems.JSONata
 {
     public class JSONata : IJSONata
     {

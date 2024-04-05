@@ -4,7 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>JSONata</RootNamespace>
+    <RootNamespace>Without.Systems.JSONata</RootNamespace>
+    <AssemblyName>Without.Systems.JSONata.Library</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

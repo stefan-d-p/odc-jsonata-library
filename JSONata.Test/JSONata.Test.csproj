@@ -7,7 +7,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>JSONata</RootNamespace>
+    <RootNamespace>Without.Systems.JSONata</RootNamespace>
+
+    <AssemblyName>Without.Systems.JSONata.Test</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

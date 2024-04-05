@@ -1,11 +1,11 @@
 using OutSystems.ExternalLibraries.SDK;
 
-namespace JSONata
+namespace Without.Systems.JSONata
 {
     [OSInterface(
         Description = "Perform complex JSON transformations with JSONata",
         Name = "JSONata",
-        IconResourceName = "JSONata.Resources.jsonata.png")]
+        IconResourceName = "Without.Systems.JSONata.Resources.jsonata.png")]
     public interface IJSONata
     {
         /// <summary>
@@ -23,7 +23,7 @@ namespace JSONata
             ReturnName = "result",
             ReturnDescription = "Transformed JSON Document",
             ReturnType = OSDataType.Text,
-            IconResourceName = "JSONata.Resources.jsonata.png")]
+            IconResourceName = "Without.Systems.JSONata.Resources.jsonata.png")]
         string Transform(
             [OSParameter(
                 DataType = OSDataType.Text,

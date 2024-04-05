@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using NuGet.Frameworks;
 using NUnit.Framework;
 
-namespace JSONata.Test
+namespace Without.Systems.JSONata.Test
 {
     [TestFixture]
     public class Tests
