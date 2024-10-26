@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>Without.Systems.JSONata</RootNamespace>
@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jsonata.Net.Native" Version="2.6.1" />
+    <PackageReference Include="Jsonata.Net.Native" Version="2.7.0" />
     <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0" />
   </ItemGroup>
 
