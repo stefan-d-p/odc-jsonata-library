@@ -1,6 +1,5 @@
 
 using Newtonsoft.Json;
-using NuGet.Frameworks;
 using NUnit.Framework;
 
 namespace Without.Systems.JSONata.Test
